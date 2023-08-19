@@ -2,15 +2,6 @@
     font-family: 'Arial', sans-serif;
     
 }
-header {
-    position: sticky;
-    top: 0;
-    
-    background-color: rgba(92, 190, 214, 0.8);
-    box-shadow: 0 0 10px rgba(236, 241, 128, 0.8);
-    border-radius: 5px;
-}
-
 #navbar ul {
     list-style: none;
     padding:3px:
@@ -36,8 +27,18 @@ header {
 }
 
 #navbar a:hover {
-    color: blue;
+    color: white;
 }
+header {
+    position: sticky;
+    top: 0;
+    
+    background-color: rgba(92, 190, 214, 0.8);
+    box-shadow: 0 0 10px rgba(236, 241, 128, 0.8);
+    border-radius: 5px;
+}
+
+
 
 #books{
         justify-content: center;
